@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narinder Singh - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <div class="navbar-brand">
+            <span class="brand-first">Narinder</span>
+            <span class="brand-last">Singh</span>
+          </div>
+          <div class="nav-toggle" id="nav-toggle">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#home-page">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#my-works">Projects</a></li>
+            <li><a href="#contact-me" class="nav-cta">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="home-content" id="home-page">
+        <div class="hero-container">
+          <div class="hero-text">
+            <div class="hero-badge bounce-in">👋 Welcome to my Portfolio</div>
+            <h1 class="zoom-in">
+              Hi, I'm <span class="highlight pulse">Narinder Singh</span>
+            </h1>
+            <h3 class="fade-up delay-2">I'm a <span id="typed-text"></span></h3>
+            <p class="hero-description fade-up delay-3">
+              A passionate developer from Punjab, India. I love building web applications and exploring new technologies.
+            </p>
+            <div class="hero-cta">
+              <a href="#my-works" class="cta-primary">
+                View My Work
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact-me" class="cta-secondary">
+                Get in Touch
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">7+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <div class="image-bg-pattern"></div>
+              <img src="./editied.jpg" alt="Narinder Singh">
+              <div class="floating-card tech-stack">
+                <i class="fab fa-react"></i>
+                <span>Web Developer</span>
+              </div>
+              <div class="floating-card location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Punjab, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-me" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image slide-in-left">
+            <div class="image-stack">
+              <img src="./editied.jpg" alt="Narinder Singh" class="main-img"/>
+              <div class="about-overlay">
+                <div class="about-card age">
+                  <h4>Age</h4>
+                  <p>20 Years</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-text slide-in-right">
+            <div class="about-description">
+              <p>
+                I am an 20-year-old B.Tech CSE student at Chitkara Institute of Engineering & Technology (CIET). I'm passionate about solving problems and creating user-friendly digital experiences.
+              </p>
+              <p>
+                My journey in technology is driven by an insatiable curiosity and desire to learn. I believe in the power of continuous learning and staying updated with the latest technological trends.
+              </p>
+            </div>
+            <div class="skills-container">
+              <h3>My Skills</h3>
+              <div class="skills-grid fade-up">
+                <div class="skill-item rotate-in delay-1">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-item rotate-in delay-2">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS</span>
+                </div>
+                <div class="skill-item rotate-in delay-3">
+                  <i class="fab fa-js"></i>
+                  <span>JS</span>
+                </div>
+                <div class="skill-item rotate-in delay-4">
+                  <i class="fab fa-python"></i>
+                  <span>Python</span>
+                </div>
+                <div class="skill-item rotate-in delay-5">
+                  <i class="fas fa-code"></i>
+                  <span>C</span>
+                </div>
+                <div class="skill-item rotate-in delay-6">
+                  <i class="fas fa-code"></i>
+                  <span>C++</span>
+                </div>
+                <div class="skill-item rotate-in delay-7">
+                  <i class="fas fa-database"></i>
+                  <span>SQL</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-cta">
+              <a href="#edu" class="btn-about">View Education <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="edu">
+      <div class="container">
+        <h2 class="section-title">Education Journey</h2>
+        
+        <div class="education-content">
+          <div class="education-intro">
+            <p>
+              I am currently pursuing a Bachelor's degree in Computer Science Engineering from Chitkara University, following my successful completion of 10th and 12th grades under the Punjab School Education Board. My educational journey has been marked by a commitment to learning and academic excellence.
+            </p>
+          </div>
+
+          <div class="education-timeline">
+            <div class="timeline-item slide-in-left delay-1">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-tag bounce-in">2025 - Present</div>
+                <h3 class="fade-up">B.Tech in Computer Science</h3>
+                <h4 class="fade-up delay-1">Chitkara University</h4>
+                <p class="fade-up delay-2">Currently pursuing my bachelor's degree with a focus on computer science and software development.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item slide-in-right delay-2">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-tag bounce-in">2022</div>
+                <h3 class="fade-up">Higher Secondary Education</h3>
+                <h4 class="fade-up delay-1">Govt. Sen. Sec. School Rajpura</h4>
+                <p class="fade-up delay-2">Completed 12th grade with focus on Science and Mathematics</p>
+                <div class="result-info fade-up delay-3">
+                  <div class="percentage">
+                    <span class="percent-number">77%</span>
+                    <span class="percent-label">Percentage</span>
+                  </div>
+                  <a href="https://drive.google.com/file/d/1bf3jpIHTnkVCkCFQOMrvTvLtgyWU_otC/view?usp=drive_link" target="_blank" class="result-link">
+                    View Result <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item slide-in-left delay-3">
+              <div class="timeline-dot pulse"></div>
+              <div class="timeline-content">
+                <div class="timeline-tag bounce-in">2020</div>
+                <h3 class="fade-up">Secondary Education</h3>
+                <h4 class="fade-up delay-1">Govt. High School Upalheri</h4>
+                <p class="fade-up delay-2">Completed 10th grade with distinction</p>
+                <div class="result-info fade-up delay-3">
+                  <div class="percentage">
+                    <span class="percent-number">92%</span>
+                    <span class="percent-label">Percentage</span>
+                  </div>
+                  <a href="https://drive.google.com/file/d/1elBpvXl7S6KEMazzrWriWc1mKbb0v2u2/view?usp=drive_link" target="_blank" class="result-link">
+                    View Result <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-cta">
+            <a href="#my-works" class="btn-projects">
+              View My Projects <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="my-works">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="projects-grid">
+          <div class="project-card flip-in">
+            <div class="project-image">
+              <img src="https://i.postimg.cc/J0L25sSw/Capture.png" alt="Big Boss Voting Zone" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/PB39-Narinder/Bigg-boss-voting-zone" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                  <a href="https://big-boss-voting-zone.netlify.app/" target="_blank" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Big Boss Voting Zone</h3>
+              <p>A web application for voting in the Big Boss show, featuring a modern interface and real-time updates.</p>
+              <div class="project-tech">
+                <span><i class="fab fa-html5"></i> HTML</span>
+                <span><i class="fab fa-css3-alt"></i> CSS</span>
+                <span><i class="fab fa-js"></i> JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card flip-in">
+            <div class="project-image">
+              <img src="https://i.postimg.cc/3RntmtjG/Capture.png" alt="Job Application Form" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/PB39-Narinder/Apply_for_job_application" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                  <a href="https://apply-for-job-application.netlify.app/" target="_blank" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Job Application Form</h3>
+              <p>A responsive job application form with modern UI elements and form validation.</p>
+              <div class="project-tech">
+                <span><i class="fab fa-html5"></i> HTML</span>
+                <span><i class="fab fa-css3-alt"></i> CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-cta">
+          <a href="#contact-me" class="btn-contact">
+            Get In Touch <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact-me">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        
+        <div class="contact-wrapper">
+          <!-- Left Side - Contact Form -->
+          <div class="contact-form-container fade-up">
+            <div class="avatar-placeholder spin">
+              <div class="avatar-letter">N</div>
+            </div>
+            <h3>Send Me a Message</h3>
+            <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+              <div class="form-message" id="formMessage"></div>
+              
+              <div class="form-group">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+                <div class="btn-loader"></div>
+              </button>
+            </form>
+          </div>
+
+          <!-- Right Side - Contact Info -->
+          <div class="contact-info-container slide-in-right">
+            <div class="contact-info">
+              <div class="contact-card">
+                <div class="contact-details">
+                  <h3>Email</h3>
+                  <p>singhnarinder14720@gmail.com</p>
+                  <a href="mailto:singhnarinder14720@gmail.com" class="contact-link">
+                    Send Email <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-details">
+                  <h3>Location</h3>
+                  <p>Punjab, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-connect">
+              <h3>Follow Me On</h3>
+              <div class="social-grid">
+                <a href="https://www.linkedin.com/in/narinder-singh-521846291/" target="_blank" class="social-card bounce-in delay-1 float">
+                  <div class="icon-placeholder">
+                    <div class="icon-letter">L</div>
+                  </div>
+                  <div class="social-info">
+                    <span class="social-name">LinkedIn</span>
+                    <span class="social-username">@narinder-singh</span>
+                  </div>
+                </a>
+
+                <a href="https://github.com/PB39-Narinder" target="_blank" class="social-card bounce-in delay-2 float">
+                  <div class="icon-placeholder">
+                    <div class="icon-letter">G</div>
+                  </div>
+                  <div class="social-info">
+                    <span class="social-name">GitHub</span>
+                    <span class="social-username">@PB39-Narinder</span>
+                  </div>
+                </a>
+
+                <a href="https://www.instagram.com/inder_3219/" target="_blank" class="social-card bounce-in delay-3 float">
+                  <div class="icon-placeholder">
+                    <div class="icon-letter">I</div>
+                  </div>
+                  <div class="social-info">
+                    <span class="social-name">Instagram</span>
+                    <span class="social-username">@inder_3219</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JAVASCRIPT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("smvjQLcBvTpYlAzbC");
+        })();
+    </script>
+    <script src="contact.js"></script>
+
+  </body>
+</html>
